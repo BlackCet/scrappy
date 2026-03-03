@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme {
+  /* Change 30s to 60s to make it twice as slow */
+  --animate-marquee: marquee 60s linear infinite;
+
+  @keyframes marquee {
+    from { transform: translateX(100%); }
+    to { transform: translateX(-100%); }
+  }
+}
+
+/* Custom scrollbar for that pro look */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #020617;
+}
+::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #10b981;
+}
