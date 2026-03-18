@@ -2,7 +2,6 @@
 
 A full-stack intelligence dashboard built to aggregate, filter, and display critical tech sector data in real-time. This system uses automated Python scrapers to pull targeted data streams into a MongoDB database, served via a Node/Express REST API to a custom React terminal interface.
 
-Developed as a core engineering project at MNNIT Allahabad.
 
 ## 🚀 Core Features
 * **CEO Social Feeds**: Tracks real-time communications from major tech executives (Sam Altman, Elon Musk, Satya Nadella, Sundar Pichai).
